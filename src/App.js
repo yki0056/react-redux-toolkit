@@ -63,7 +63,7 @@ current(console.log(state)) 이런식으로 적어야지 나옴.  다른 값들 
 normal Redux는 redux-saga를 사용하고, redux-toolkit은 RTK Query라는걸 사용하는듯   
 Redux 를 사용하다 보면 서버 데이터를 받아와 상태 관리를 하기 위해 Redux-saga 를 사용하게 되고, Client Side 에서 전역 상태 관리를 위해서 사용하는 라이브러리가 의도와는 다르게 비동기 요청을 위한 로직으로 Store 혹은 module 이 비대해지게 됩니다. 비동기 요청을 위해 request.success, request.fail 상태의 로직도 다뤄야 하며, 이 전체적인 과정을 Redux 모듈에서 관리하려니 보일러 플레이트가 관리하기 어려울 정도로 커지는건 당연한 상황입니다.
 배우기 위해 런닝커브가 있으므로 일단 이곳에선 스킵.
-대체자로 *react-query를 사용가능  
+대체자로 *react-query를 사용가능  ...
 */
 
 export default App;
